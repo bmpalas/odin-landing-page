@@ -1,0 +1,32 @@
+.headerblock {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+ display:flex;
+ flex-direction: row;   
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerlinks {
+
+}
+
+
+
+.lighttext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.darktext {
+    color: #1f2937;
+    font-size: 18px;
+}
