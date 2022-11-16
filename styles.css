@@ -1,32 +1,140 @@
-.headerblock {
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topblock {
     width: 100vw;
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    padding-bottom: 100px;
+}
+
+.headerblock {
+ width: 900px;
+ display:flex;
+ flex-direction: column; 
+ /* background-color: pink;   */
+ /* justify-content: center; */
+ flex: 1 1 0;
+ margin: auto;
+
 }
 
 .header {
- display:flex;
- flex-direction: row;   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    /* background-color: pink; */
+    margin-bottom: 50px;
 }
 
 .headerlogo {
     font-size: 24px;
     color: #f9faf8;
+    justify-content: start;
+    align-items: start;
 }
 
 .headerlinks {
-
+display: flex;
+/* justify-content: space-between; */
+/* flex-direction: row; */
+/* align-items: start; */
+/* color:  */
+font-size: small;
+justify-content: space-between;
 }
 
+.heroblock {
+    /* width: 800px; */
+    /* height: 60%; */
+    display: flex;
+    flex-direction: row;
+}
 
+.herocontainer {
+    display: flex;
+    flex: 1 1 auto;
+    /* width: 400px; */
+    width: 45%;
+    flex-direction: column;
+    /* background-color: purple; */
+    justify-content: space-between;
+    margin-right: 20px
+    /* padding: 16px; */
+}
 
-.lighttext {
+.herosubtext {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
     color: #e5e7eb;
-    font-size: 18px;
 }
 
-.darktext {
-    color: #1f2937;
-    font-size: 18px;
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #e5e7eb;  
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    /* padding: 10px; */
+    justify-content: space-between;
+}
+
+
+.heroimage {
+    /* width: 400px;
+    height: 250px; */
+    width: 50%;
+    height: 100%;
+}
+
+
+#herobutton {
+    background-color: #3882f6;
+    flex: 0 1 auto;
+    border-radius: 10px;
+    border: solid #3882f6;
+    color: white;
+    width: 100px;
+    padding: 5px;
+
+}
+
+#footerbutton {
+    color: 
+}
+
+.bodyquote {
+  font-size: 36px;  
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+}
+
+
+li {
+    margin
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 0px;
+    line-height: 95%;
+  }
+
+h3 {
+
 }
