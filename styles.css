@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topblock {
@@ -116,13 +116,69 @@ ul {
     color: 
 }
 
+
+.bodyblock {
+    background-color: white;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.bodycontainer {
+    width: 55%;
+    display: flex;    
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 50px;
+    }
+
+.bodyheadline {
+    /* align-items: center; */
+    margin: auto;   
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.bodypics {
+    display: flex;
+    flex-direction: row;
+}
+
+.bodypic {
+    display: flex;
+    flex-direction: column;
+    font-size: 
+}
+
+.bodyimg {
+    border-radius: 20px;
+    border: 3px solid #3882f6;
+    height: 200px;
+    width: 200px;
+}
+
+.bodypictext {
+    font-size: small;
+    color: #1f2937;
+}
+
 .bodyquote {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.quote {
+  width: 60%;
+  margin: auto;
   font-size: 36px;  
   font-style: italic;
   font-weight: light;
   color: #1f2937;
 }
 
+.quoteattribution {
+    
+}
 
 li {
     margin
